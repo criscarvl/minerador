@@ -126,4 +126,4 @@ tempo_total = tempo_final - tempo_inicial
 logging.info(f"Tempo de execução: {tempo_total} segundos")
 print(f"Tempo de execução: {tempo_total} segundos")
 df = pd.DataFrame(repos_list, columns=['id','Nome', 'Descrição', 'Estrelas', 'Forks', 'URL', 'Linguagens', 'Arquivos com PRAGMA'])
-df.to_csv('repos_c++_openmp.csv', index=False)
+df.to_csv('repos_openmp.csv', index=False)
